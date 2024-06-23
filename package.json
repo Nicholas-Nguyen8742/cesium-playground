@@ -1,0 +1,75 @@
+{
+  "name": "cesium-playground",
+  "version": "1.0.0",
+  "description": "Web interface for learning cesium using react, vite, typescript",
+  "author": {
+    "name": "Nick Nguyen",
+    "url": "https://github.com/Nicholas-Nguyen8742"
+  },
+  "license": "ISC",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "engines": {
+    "node": "20.9.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.15.20",
+    "@mui/material": "^5.15.20",
+    "axios": "^1.7.2",
+    "cesium": "^1.118.2",
+    "mapbox-gl": "^3.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.1"
+  },
+  "devDependencies": {
+    "@types/cesium": "^1.70.0",
+    "@types/mapbox-gl": "^3.1.0",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.0",
+    "vite-plugin-cesium": "^1.2.22",
+    "vite-plugin-checker": "^0.6.4",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-static-copy": "^1.0.5"
+  },
+  "keywords": [
+    "typescript",
+    "react",
+    "cesium",
+    "vite"
+  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "not safari < 10",
+      "not chrome < 51",
+      "not android < 5",
+      "not ie < 12"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
